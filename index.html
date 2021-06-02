@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Weather Dashboard</title>
+    </head>
+    <body>
+        <header><h1>Weather Dashboard</h1></header>
+        <div class="sidebar">
+            <h2>Search for a City:</h2>
+            <form>
+                <input type="text" placeholder="San Diego" name="city" id="city" class="search-box">
+                <button type="submit">Search</button>
+            </form>
+            <ul class="searched-cities"></ul>
+        </div>
+        <main>
+            <div class="city-info">
+                <h2 class="city-name"></h2>
+                <p class="city-temp">Temp: <span></span></p>
+                <p class="city-wind">Wind: <span></span></p>
+                <p class="city-humidity">Humidity: <span></span></p>
+                <p class="city-uv">UV Index: <span></span></p>
+            </div>
+            <div class="forecast">
+                <h3>5-Day Forecast:</h3>
+                <div class="card">
+                    <h4 class="day-1"></h4>
+                    <span class="weather-icon"></span>
+                    <p class="day-temp">Temp: <span></span></p>
+                    <p class="day-wind">Wind: <span></span></p>
+                    <p class="day-humidity">Humidity: <span></span></p>
+                </div>
+                <div class="card">
+                    <h4 class="day-2"></h4>
+                    <span class="weather-icon"></span>
+                    <p class="day-temp">Temp: <span></span></p>
+                    <p class="day-wind">Wind: <span></span></p>
+                    <p class="day-humidity">Humidity: <span></span></p>
+                </div>
+                <div class="card">
+                    <h4 class="day-3"></h4>
+                    <span class="weather-icon"></span>
+                    <p class="day-temp">Temp: <span></span></p>
+                    <p class="day-wind">Wind: <span></span></p>
+                    <p class="day-humidity">Humidity: <span></span></p>
+                </div>
+                <div class="card">
+                    <h4 class="day-4"></h4>
+                    <span class="weather-icon"></span>
+                    <p class="day-temp">Temp: <span></span></p>
+                    <p class="day-wind">Wind: <span></span></p>
+                    <p class="day-humidity">Humidity: <span></span></p>
+                </div>
+                <div class="card">
+                    <h4 class="day-5"></h4>
+                    <span class="weather-icon"></span>
+                    <p class="day-temp">Temp: <span></span></p>
+                    <p class="day-wind">Wind: <span></span></p>
+                    <p class="day-humidity">Humidity: <span></span></p>
+                </div>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
