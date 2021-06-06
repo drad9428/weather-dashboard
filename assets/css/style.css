@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    color: white;
+    background-image: linear-gradient(to right, blue, purple);
+    text-align: center;
+    padding: 1px 0 4px 0;
+}
+
+form{
+    border-bottom: solid 2px grey;
+}
+
+form input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+form button{
+    width: 100%;
+    background-color: #5aa2e9;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.city-info{
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.city-info .city-uv span{
+    color: white;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.city-uv .high{
+    background-color: red;
+}
+
+.city-uv .medium{
+    background-color: yellow;
+    color: black;
+}
+
+.city-uv .low{
+    background-color: green;
+}
+
+h1, h2, h3{
+    font-weight: bolder;
+}
+
+.card{
+    background-color: #33475a;
+    color: white;
+    border-radius: 0;
+}
