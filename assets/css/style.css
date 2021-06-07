@@ -53,7 +53,7 @@ form button{
     background-color: green;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
     font-weight: bolder;
 }
 
@@ -61,4 +61,9 @@ h1, h2, h3{
     background-color: #33475a;
     color: white;
     border-radius: 0;
+}
+
+.card h4{
+    margin-top: 5px;
+    text-align: left;
 }
